@@ -1,0 +1,11 @@
+export const ACTION_TYPES = {
+  API: "API",
+};
+
+export const REDUCERS = {
+  GLOBAL_REDUCER: {
+    SET_EMPLOYEES: "SET_EMPLOYEES",
+    SET_HOTEL_REPORT: "SET_HOTEL_REPORT",
+    SET_BOOKINGS: "SET_BOOKINGS",
+  },
+};

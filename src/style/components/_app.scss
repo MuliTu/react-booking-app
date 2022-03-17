@@ -1,0 +1,14 @@
+@import "../variables/variables";
+
+.App {
+  text-align: center;
+  padding: $appPadding;
+  &-light {
+    height: 100vh;
+    background-color: $lightModeColor;
+  }
+  &-dark {
+    height: 100vh;
+    background-color: $darkModeColor;
+  }
+}
